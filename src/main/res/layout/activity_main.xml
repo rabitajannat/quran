@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+      >
+
+
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@drawable/quran"
+       android:scaleType="centerCrop"
+
+       />
+   //
+
+   <LinearLayout
+       android:id="@+id/tvDiplay"
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:layout_margin="10dp"
+       android:orientation="horizontal"
+       android:background="#DCDCDC">
+
+      <ImageView
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:src="@drawable/cover"
+          android:scaleType="centerCrop"
+          />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+         android:orientation="vertical"
+          >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:text="Surah Al-Fatiha | By Sheikh Abdur-Rahman
+
+           As-Sudais | Full With Arabic Text (HD)"
+             android:textSize="14dp"
+             android:textColor="#000000"
+             android:lines="2"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:text="   بسم اللہ الرحمن الرحیم The Best Amongst You is The Learn The Quran and Teaches It"
+android:lines="2"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Duration:5.00"
+             />
+
+
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+//
+
+
+   //
+
+   <LinearLayout
+       android:id="@+id/display"
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:layout_margin="10dp"
+       android:orientation="horizontal"
+       android:background="#DCDCDC">
+
+      <ImageView
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:src="@drawable/cover"
+          android:scaleType="centerCrop"
+          />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:text="Surah Waqiah Recited by Zain Abu Kautsar "
+             android:textSize="14dp"
+             android:textColor="#000000"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:text="   بسم اللہ الرحمن الرحیم The Best Amongst You is The Learn The Quran and Teaches It"
+
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Duration:5.00"
+             />
+
+
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+   //
+
+
+   <LinearLayout
+       android:id="@+id/play"
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:layout_margin="10dp"
+       android:orientation="horizontal"
+       android:background="#DCDCDC">
+
+      <ImageView
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:src="@drawable/cover"
+          android:scaleType="centerCrop"
+          />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:text="Recited By Ismail Al Nouri ┇ An Nafee Sura mulok "
+             android:textSize="14dp"
+             android:textColor="#000000"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:text="   بسم اللہ الرحمن الرحیم The Best Amongst You is The Learn The Quran and Teaches It"
+
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Duration:5.00"
+             />
+
+
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+   //
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          android:text="22,500 views  Mar 12, 2024
+Provided to YouTube by Symphonic Distribution
+
+Surah Mulk · Sheikh Ismail Nuri
+
+Surah Mulk
+
+℗ 2023 Mahdee Hasan Studio
+
+Released on: 2023-10-16
+
+Composer: Sheikh Ismail Nuri
+
+Auto-generated by YouTube.
+Music"
+          android:lines="5"
+          android:textSize="20dp"
+          android:layout_marginTop="10dp"
+         />
+
+
+
+   </LinearLayout>
+
+</ScrollView>
